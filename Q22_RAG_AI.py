@@ -71,7 +71,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -348,7 +348,7 @@ BEST hparam: nq= 5 | D (dokumenata): 8 | m (aux): 3 | K = 2^m (retrieved): 8 | L
   rank 6  chunk=  6  s=0.984000  w=0.124771
   rank 7  chunk=  0  s=0.982111  w=0.124531
 --- glavna predikcija (QRAG augmented state) ---
-predikcija NEXT: (7, 19, 22, 24, 27, 28, 31)
+predikcija NEXT: (7, 19, x, y, z, 28, 31)
 """
 
 
